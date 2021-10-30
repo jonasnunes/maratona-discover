@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,400;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --major-font: 'Poppins', sans-serif;
+  --body-background: #f0f2f5;
+  --header-background: #2d4a22;
+  --logo-color: #fff;
+  --subtitle-color: #363f5f;
+  --card-background: #49aa26;
+  --color-table: #969cb3;
+}
+
+body{
+  background-color: var(--body-background);
+  font-family: var(--major-font);
+}
+
+/* ========= TITLES ========= */
+
+h2{
+  margin-top: 3.2rem;
+  margin-bottom: .8rem;
+  color: var(--subtitle-color);
+  font-weight: 400;
+}
+
+/* ========= HEADER ========= */
+
+header{
+  background-color: var(--header-background);
+  padding: 2rem 0 10rem;
+  text-align: center;
+}
+
+#logo{
+  color: var(--logo-color);
+  font-weight: 100;
+}
+
+/* ========= CONTAINER ========= */
+
+.container{
+  width: min(90vw, 800px);
+  margin: auto;
+}
+
+/* ========= BALANCE ========= */
+
+#balance{
+  margin-top: -8rem;
+}
+
+#balance h2{
+  color: #fff;
+  margin-top: 0;
+}
+
+/* ========= CARDS ========= */
+
+.card{
+  background-color: #fff;
+  padding: 1.5rem 2rem;
+  border-radius: .25rem;
+  margin-bottom: 2rem;
+  color: var(--subtitle-color);
+}
+
+.card h3{
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.card p{
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 1rem;
+}
+
+.card:nth-child(4){
+  background-color: var(--card-background);
+  color: #fff;
+}
+
+/* ========= TABLE ========= */
+
+#data-table{
+  width: 100%;
+  border-spacing: 0 .5rem;
+  color: var(--color-table);
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child{
+  border-radius: .25rem 0 0 .25rem;
+}
+
+table thead th{
+  background-color: #fff;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  text-align: left;
+}
+
+table tbody tr{
+  opacity: .7;
+}
+
+table tbody tr:hover{
+  opacity: 1;
+}
+
+table td{
+  background-color: #fff;
+  padding: 1rem 2rem;
+}
+
+.description{
+  color: var(--subtitle-color);
+}
+
+.income{
+  color: #12a45a;
+}
+
+.expense{
+  color: #e92929;
+}
+
+/* ========= FOOTER ========= */
+
+footer{
+  text-align: center;
+  padding: 4rem 0 2rem;
+  color: var(--subtitle-color);
+  opacity: .6;
+}
