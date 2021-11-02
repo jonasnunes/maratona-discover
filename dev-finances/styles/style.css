@@ -257,7 +257,7 @@ table td{
   margin-top: .8rem;
 }
 
-.input-group small{
+.input-group .help{
   opacity: .4;
 }
 
